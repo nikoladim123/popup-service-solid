@@ -1,0 +1,62 @@
+@media only screen and (min-device-width : 767px) and (max-device-width : 1360px) {
+  .showDesktop {
+    display: none;
+  }
+
+  .showTablet {
+    display: block
+  }
+
+  h1 {
+    font-size: 11.71875vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.8vw;
+  }
+
+  .shareModule {
+    right: 7vw;
+  }
+
+  .popupMainContainer {
+    margin-top: 13.8vw;
+  }
+
+  .popupContent {
+    width: 87.2439vw;
+    /* margin-top: 1.8vw; */
+  }
+
+  .sideVid {
+    width: 30.2195vw;
+    height: 29.2195vw;
+    margin-left: 3.70731vw;
+  }
+
+  .UIUXsectionTwo h2 {
+    margin-top: 12vw;
+    font-size: 9.31707vw;
+  }
+
+  .uiuxSectionOne p {
+    font-size: 1.953125vw;
+  }
+
+  .UIUXsectionTwo p {
+    font-size: 1.953125vw;
+    width: 74.34895vw;
+    margin-left: 5.5vw;
+  }
+
+  .contactUsButton {
+    margin: 0;
+    margin-top: 11vw;
+  }
+
+  .contactUsParagraph {
+    color: rgba(255, 255, 255, .7);
+    writing-mode: tb;
+    font-size: 3.90625vw;
+    margin: 0;
+    font-family: 'Poppins-Black';
+  }
+}

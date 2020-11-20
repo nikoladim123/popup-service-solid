@@ -1,0 +1,363 @@
+/* fonts to be removed */
+@font-face {
+  font-family: 'Poppins-Black';
+  src: url('../fonts/Poppins/Poppins-Black.otf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../fonts/Poppins/Poppins-Bold.otf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('../fonts/Poppins/Poppins-Light.otf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Thin';
+  src: url('../fonts/Poppins/Poppins-Thin.otf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../fonts/Poppins/Poppins-Regular.otf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Morganite';
+  src: url('../fonts/Morganite/Morganite-Regular.otf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Morganite-Bold';
+  src: url('../fonts/Morganite/Morganite-Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Morganite-Thin';
+  src: url('../fonts/Morganite/Morganite-Thin.ttf') format('truetype');
+  font-display: swap;
+}
+
+/* fonts to be removed */
+* {
+  font-family: 'Poppins-Regular';
+}
+
+body {
+  margin: 0;
+  position: relative;
+  min-height: 100vh;
+  background: black;
+  padding: 0.05px;
+}
+
+.leftSideColor {
+  width: 50%;
+  height: 100%;
+  background: #8e92eb;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  position: relative;
+  font-size: 7.317073vw;
+  font-family: 'Morganite-Thin';
+  color: white;
+  font-weight: 100;
+  margin-top: 3.317vw;
+  margin-left: 5.951219vw;
+  margin-bottom: 0;
+}
+
+h1 span {
+  font-family: 'Morganite-Bold';
+}
+
+/* shareIconModul start */
+.shareModule {
+  transition: 0.5s ease-in;
+  position: absolute;
+  /* border: 1px solid red; */
+  right: 24vw;
+  top: 8vw;
+  height: 3vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 2.5vw;
+}
+
+.shareModule:hover {
+  width: 13vw;
+}
+
+.shareModule:hover .shareIcon {
+  filter: drop-shadow(0px 0px .1vw rgba(255, 255, 255, .8));
+}
+
+.shareIconsContainer {
+  width: 7vw;
+  /* border: 1px solid blue; */
+  position: absolute;
+  left: 3vw;
+  top: 0;
+  height: 100%;
+  display: flex;
+}
+
+.shareIconsContainer a {
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  /* border: 1px solid green; */
+  width: 100%;
+}
+.shareIconsContainer a::after{
+  transition: .3s ease;
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(0,0,0,0);
+}
+.shareIconsContainer a:hover:after{
+  background: rgba(0,0,0,.5);
+}
+
+.socialSprite {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 8vw;
+}
+
+.shareIconContainer {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.41) 25%, rgba(0, 0, 0, 0.62) 56%, rgba(0, 0, 0, 1) 100%);
+  width: 4vw;
+  height: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.shareIcon {
+  transition: 0.4s ease-in;
+  width: 2vw;
+  height: 2vw;
+  flex-shrink: 0;
+  filter: drop-shadow(0px 0px 0vw rgba(255, 255, 255, .5));
+}
+
+/* shareIconModul end */
+.popupMainContainer {
+  width: 94.29268292682926%;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 11vw;
+  /* border: 1px solid red; */
+  height: -webkit-fill-available;
+  display: flex;
+      box-shadow: 0 0 3vw 0vw rgba(0,0,0,.4);
+}
+
+.popupContent {
+  position: relative;
+  width: 70.2439vw;
+  background: #d3d3d3;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding-top: 3.1707vw;
+}
+
+/* width */
+.popupContent::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.popupContent::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background: #cccccc;
+}
+
+/* Handle */
+.popupContent::-webkit-scrollbar-thumb {
+  background: #3A3838;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.popupContent::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+.uiuxSectionOne {
+  position: relative;
+  display: flex;
+}
+
+.sideVid {
+  width: 23.2195vw;
+  height: 23.2195vw;
+  margin-left: 3.70731vw;
+}
+
+.uiuxSectionOne p {
+  font-size: 1.31707vw;
+  margin: 0;
+  color: #444444;
+  margin-left: 2.2vw;
+  font-family: 'Poppins-Regular';
+  margin-right: 2vw;
+  margin-top: -0.5vw;
+}
+
+.UIUXsectionTwo {
+  position: relative;
+}
+
+.UIUXsectionTwo h2 {
+  font-size: 7.31707vw;
+  font-family: 'Morganite-Thin';
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.UIUXsectionTwo h2 span {
+  font-family: 'Morganite-Bold';
+}
+
+.yellowLineContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blackLine {
+  width: 22.87804vw;
+  height: 1px;
+  background: black;
+  margin-top: 0.5vw;
+}
+
+.YellowLine {
+  position: relative;
+  background: #ebbe33;
+  width: 7.512195vw;
+  height: 0.7vw;
+  top: -0.35vw;
+}
+
+.UIUXsectionTwo p {
+  font-size: 1.31707vw;
+  width: 56vw;
+  margin-left: 6.8780vw;
+  color: #444444;
+}
+
+.popupSideMenuContainer {
+  position: relative;
+  flex-grow: 1;
+}
+.contactUsContainer{
+  /* border: 1px solid red; */
+  background: #e5e5e5;
+  position: absolute;
+  right: 0;
+  height: 99.5%;
+  /* width: 70vw; */
+  width: 0;
+  top: 0;
+  transition: .5s ease-in;
+}
+.contactUsInsideContainer{
+  width: 80vw;
+  padding:4.02635431vw 4.026354vw ;
+}
+.contactUsContainer p{
+  color: #888888;
+  font-family: 'Poppins-Regular';
+  font-size: 1.46412vw;
+}
+
+.popupSideMenu {
+  background: #8e92eb;
+  /* min-height: 5vw; */
+}
+
+.popupSideMenuItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6.926829vw;
+}
+
+.popupSideMenu h3 {
+  color: white;
+  font-family: 'Poppins-Thin';
+  font-size: 1.31707vw;
+  /* font-weight: 100; */
+  margin-right: 5vw;
+  margin-left: 1vw;
+}
+
+.uiuxIcon {
+  border-radius: 50%;
+  border-radius: 2px solid white;
+  width: 2.73170vw;
+  height: 2.73170vw;
+}
+
+.contactUsButton {
+  /* border: 1px solid red; */
+  margin-top: 15.4146vw;
+  margin-left: 8.585365vw;
+  width: 7vw;
+  cursor: pointer;
+}
+
+.contactUsButton:hover .envelop {
+  filter: drop-shadow(0px 0px 1vw rgba(255, 255, 255, .5));
+}
+
+.contactUsButton img {
+  transition: 0.3s ease-in;
+  width: 6.82926vw;
+  height: 7.56097vw;
+  filter: drop-shadow(0px 0px 0vw rgba(255, 255, 255));
+}
+
+
+/* desktop only */
+.showDesktop{
+  display: block;
+}
+.showTablet{
+  display: none;
+}
+.contactUsParagraph{
+  color: rgba(255,255,255,.7);
+  writing-mode: tb;
+}
+/* desktop only */
