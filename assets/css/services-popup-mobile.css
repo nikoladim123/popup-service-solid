@@ -1,0 +1,45 @@
+@media(max-device-width : 767px) {
+  h1 {
+    font-size: 21.42857vw;
+  }
+
+  .popupMainContainer {
+    margin-top: 25vw;
+    width: 100%;
+  }
+
+  .sideVid {
+    width: 45.23809vw;
+    height: 45.23809vw;
+    margin-left: 3.70731vw;
+  }
+
+  .popupContent {
+    width: 100%;
+  }
+
+  .popupSideMenuContainer {
+    display: none;
+  }
+
+  .uiuxSectionOne {
+    flex-direction: column;
+  }
+
+  .uiuxSectionOne p {
+    margin-top: 11.5vw;
+  }
+
+  .UIUXsectionTwo h2 {
+    font-size: 17.1428vw;
+  }
+
+  .UIUXsectionTwo p {
+    font-size: 3.57142vw;
+    width: 90%;
+    margin: 5%;
+  }
+  .shareModule{
+    display: none;
+  }
+}

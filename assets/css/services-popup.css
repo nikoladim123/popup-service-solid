@@ -124,7 +124,8 @@ h1 span {
   /* border: 1px solid green; */
   width: 100%;
 }
-.shareIconsContainer a::after{
+
+.shareIconsContainer a::after {
   transition: .3s ease;
   content: '';
   width: 100%;
@@ -132,10 +133,11 @@ h1 span {
   position: absolute;
   left: 0;
   top: 0;
-  background: rgba(0,0,0,0);
+  background: rgba(0, 0, 0, 0);
 }
-.shareIconsContainer a:hover:after{
-  background: rgba(0,0,0,.5);
+
+.shareIconsContainer a:hover:after {
+  background: rgba(0, 0, 0, .5);
 }
 
 .socialSprite {
@@ -176,7 +178,7 @@ h1 span {
   /* border: 1px solid red; */
   height: -webkit-fill-available;
   display: flex;
-      box-shadow: 0 0 3vw 0vw rgba(0,0,0,.4);
+  box-shadow: 0 0 3vw 0vw rgba(0, 0, 0, .4);
 }
 
 .popupContent {
@@ -280,7 +282,8 @@ h1 span {
   position: relative;
   flex-grow: 1;
 }
-.contactUsContainer{
+
+.contactUsContainer {
   /* border: 1px solid red; */
   background: #e5e5e5;
   position: absolute;
@@ -290,12 +293,15 @@ h1 span {
   width: 0;
   top: 0;
   transition: .5s ease-in;
+  overflow: hidden;
 }
-.contactUsInsideContainer{
+
+.contactUsInsideContainer {
   width: 80vw;
-  padding:4.02635431vw 4.026354vw ;
+  padding: 4.02635431vw 4.026354vw;
 }
-.contactUsContainer p{
+
+.contactUsContainer p {
   color: #888888;
   font-family: 'Poppins-Regular';
   font-size: 1.46412vw;
@@ -348,16 +354,70 @@ h1 span {
   filter: drop-shadow(0px 0px 0vw rgba(255, 255, 255));
 }
 
+.contactUsInsideContainer a {
+  color: #888;
+}
+
+.contactUsContainer form {
+  width: 88%;
+  margin-left: 5.3%;
+}
+
+.contactUsContainer input {
+  border: 1px solid transparent;
+  width: 100%;
+  background: 0 0;
+  border-bottom: 1px solid #888;
+  font-family: 'Montserrat Light';
+  font-size: 1rem;
+  padding: .1rem;
+  margin-top: 1vw;
+  outline: 0;
+}
+
+.contactUsContainer textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #888;
+  resize: none;
+  height: 1.4vw;
+  color: #888;
+  margin-top: 1vw;
+}
+
+.sendButton {
+  display: inline-block;
+  color: #fff;
+  background: #888;
+  position: relative;
+  border: 2px solid #fff;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all .3s;
+  font-size: 1vw;
+  float: right;
+  margin-top: 1vw;
+}
+
+.sendButton:hover {
+  background: #f5cc1a;
+  border: 2px solid #fff;
+}
 
 /* desktop only */
-.showDesktop{
+.showDesktop {
   display: block;
 }
-.showTablet{
+
+.showTablet {
   display: none;
 }
-.contactUsParagraph{
-  color: rgba(255,255,255,.7);
+
+.contactUsParagraph {
+  color: rgba(255, 255, 255, .7);
   writing-mode: tb;
 }
+
 /* desktop only */

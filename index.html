@@ -6,6 +6,7 @@
   <title></title>
   <link rel="stylesheet" href="assets/css/services-popup.css">
   <link rel="stylesheet" href="assets/css/services-popup-tablet.css">
+  <link rel="stylesheet" href="assets/css/services-popup-mobile.css">
 </head>
 
 <body>
@@ -69,6 +70,12 @@
           <a href="tel:617-755-5200"><span class="icon-phone"></span>617-755-5200</a> <br>
           <a href="skype:live:ckhamak?add"><span class="icon-skype"></span>Skype: SolidCode US</a>
         </div>
+        <form class="contactForm" action="index.html" method="post">
+          <input type="text" name="name" id="name" placeholder="Name">
+          <input type="email" name="email" id="email" placeholder="Email">
+          <textarea name="message" id="message" class="message" placeholder="Message" rows="8" cols="40"></textarea>
+          <button class="sendButton" type="button" name="button">SEND</button>
+        </form>
       </div>
 
     </div>
